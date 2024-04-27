@@ -10,7 +10,7 @@ def main(infile):
     line_count(infile)
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description="This program prints the number of lines in infile.")
     parser.add_argument('infile',help='provide file path',nargs='?')
